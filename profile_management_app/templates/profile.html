@@ -16,7 +16,9 @@
         </div>
 
         <div class="container" style="overflow: hidden;">
-            {% for items in data %}
+            <p class="lead"> Your last login time:{{user.last_login}}
+            <p>
+                {% for items in data %}
             <p class='lead' style="float: left;"> Name:</p>
             <p class="lead">{{items.name}}</p>
             <p class='lead' style="float: left;">Gender:</p>
